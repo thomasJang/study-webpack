@@ -1,0 +1,22 @@
+{
+    "name": "study-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --config webpack.config.js",
+        "build": "webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "ax5core": "^1.4.83",
+        "lodash": "^4.17.4"
+    },
+    "devDependencies": {
+        "path": "^0.12.7",
+        "webpack": "^2.6.1"
+    }
+}
